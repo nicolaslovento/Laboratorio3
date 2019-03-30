@@ -1,0 +1,48 @@
+form{
+    background-color: cadetblue;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    border-style: groove;
+    left: 60px;
+    top:80px;
+}
+
+#num1{
+    background-color: cornflowerblue;
+    width: 200px;
+    padding: 5px;
+    margin:5px;
+ }
+#num2{
+    background-color: cornflowerblue;
+    width: 200px;
+    padding: 5px;
+    margin:5px;
+    position: relative;
+}
+
+.numero{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+}
+
+.lista{
+    position: relative;
+    right:25px;
+    font-size: 25px;
+    list-style-type: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular';
+    font-style:unset;
+}
+
+.button{
+    height: 60px;
+    width: 100px;
+    left:5px;
+    top:20px;
+    position: relative;
+    font-size-adjust: inherit;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular';
+
+}
