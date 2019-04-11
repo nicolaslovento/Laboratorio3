@@ -1,0 +1,32 @@
+<!--Confeccionar un formulario que solicite el ingreso del nombre de una persona y permita
+votar el sitio. Mediante un control de tipo radio, el visitante puede elegir entre las siguientes
+opciones: Excelente, Muy Bueno, Bueno, Regular y Malo. Al pulsar el botón, mostrar la
+opción elegida por consola.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio18</title>
+    <script src=funciones.js></script>
+</head>
+<body>
+<div align="center">
+    <form  style="font-weight: 400; background-color: crimson; width: 300px; height:200px; text-align: center;">
+        <table style="font-family: Arial, Helvetica, sans-serif">
+            <caption>Por favor,danos tu opinion</caption>
+            <tr><td>Ingrese nombre:</td><td><input type="text" name="nombre" id="nombre"></td></tr>
+            <tr><td>Excelente</td><td><input type="radio" name="radioButton" value="Excelente"></td></tr>
+            <tr><td>Muy Bueno</td><td><input type="radio" name="radioButton" value="Muy Bueno"></td></tr>
+            <tr><td>Bueno</td><td><input type="radio" name="radioButton" value="Bueno"></td></tr>
+            <tr><td>Regular</td><td><input type="radio" name="radioButton" value="Regular"></td></tr>
+            <tr><td>Malo</td><td><input type="radio" name="radioButton" value="Malo"></td></tr>
+            <tr><td></td>
+                <td><input type="button" name="btnEnviar" value=" Enviar " onclick="ObtenerDatos()"></td></tr>
+        </table>
+    </form>
+</div>    
+</body>
+</html>
