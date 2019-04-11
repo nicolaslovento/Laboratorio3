@@ -1,0 +1,26 @@
+<!--19- Confeccionar un formulario que muestre en un comboBox (SELECT) una serie de mails.
+Luego permitir que el visitante seleccione uno o varios mails del cuadro de selección.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio19</title>
+    <script src="email.js"></script>
+</head>
+<body>
+    <select style="width: 200px; height: 80px;" multiple required size="4" id="cboBox">
+        
+            <option value="nico@hotmail.com" name="email">nico@hotmail.com</option>
+            <option value="adrian@hotmail.com" name="email">adrian@hotmail.com</option>
+            <option value="roberto@hotmail.com" name="email">roberto@hotmail.com</option>
+            <option value="maria@hotmail.com" name="email">maria@hotmail.com</option>
+    </select>
+    <br>
+    <input type="button" name="buttonEnviar" value="Enviar" onclick="ObtenerDatos()">
+
+</body>
+</html>
