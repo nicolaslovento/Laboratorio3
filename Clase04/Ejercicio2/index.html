@@ -1,0 +1,22 @@
+<!--Aplicación Nº 2 (Mostrar contenido de archivo)
+Generar una aplicación Web, que permita al usuario ingresar el path de un archivo de texto. Al
+pulsar un botón, y utilizando el objeto XMLHttpRequest, mostrar el contenido del archivo en
+un <div>. En caso de que el archivo no exista, mostrar un mensaje de error por alert().-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="archivos.js"></script>
+</head>
+<body>
+
+    <input type="text" name="path" id="path" value="Ingrese aquí la ruta..">
+    <input type="button" name="enviar" value="Enviar" onclick="Archivo.Mostrar()">
+    <div id="div_mostrarArchivo" name="div"></div>
+    
+</body>
+</html>
