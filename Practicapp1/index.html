@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="manejador.js"></script>
+</head>
+<body>
+
+    <div id="form">
+
+        <table>
+
+            <caption>Ingreso</caption>
+            <tr><td>Nombre: </td><td><input type="text" name="nombre" id="nombre"></td></tr>
+            <tr><td>Legajo: </td><td><input type="number" name="legajo" id="legajo"></td></tr>
+            <tr><td>Foto:</td><td><input type="file" name="foto" id="foto"></td></tr>
+            <tr><td><button id="cargar" onclick="Manejador.Agregar()">Cargar</button></td>
+                <td><button id="modificar" onclick="Manejador.Modificar()" disabled>Modificar</button></td>
+            </tr>
+        </table>
+    </div>
+
+    <img id="imgEmp" src="" width="100" height="100" style="display: none">
+
+    <div id="div_mostrarTabla"></div>
+    
+</body>
+</html>
