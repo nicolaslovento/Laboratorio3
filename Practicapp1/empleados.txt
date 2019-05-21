@@ -1,3 +1,0 @@
-{"nombre":"etr","legajo":"107301","fotoDestino":".\/BACKEND\/fotos\/etr-107301.jpg"}
-{"nombre":"etr","legajo":"107301","fotoDestino":".\/BACKEND\/fotos\/etr-107301.jpg"}
-{"nombre":"etr","legajo":"107301","fotoDestino":".\/BACKEND\/fotos\/etr-107301.jpg"}
