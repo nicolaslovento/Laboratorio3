@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript" src="manejador.js"></script>
+</head>
+<body>
+
+    <input type="text" name="path" id="path" value="Ingrese aquí la ruta..">
+    <input type="button" name="enviarPath" value="Enviar" onclick="Archivo.BuscarPath()"><br>
+    <div id="div_Palabra" style="display:none">
+    <input type="text" name="palabra" id="palabra" value="Buscar palabra" >
+    
+    <input type="button" name="enviarPalabra" value="Buscar palabra"  onclick="Archivo.BuscarPalabra()"><br>
+    </div>
+    <div id="div_mostrarPalabra" name="div"></div>
+    <div id="div_mostrarArchivo" name="div"></div>
+    
+</body>
+</html>
