@@ -1,0 +1,34 @@
+th{
+    background-color: steelblue;
+    color: bisque;
+    font-size: 15px;
+}
+
+span{
+    font-family: fantasy;
+}
+
+table{
+    background-color: yellowgreen;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+}
+input{
+    font-size: 150%;
+
+}
+
+.aceptar{
+    background-color: teal;
+}
+
+.cancelar{
+    background-color: sienna;
+}
+
+
+button{
+    width: 100%;
+}
+
