@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Recuperatorio Primer Parcial</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+  
+  <script src="https://code.jquery.com/jquery-3.3.0.js"
+  integrity="sha256-TFWSuDJt6kS+huV+vVlyV1jM3dwGdeNWqezhTxXB/X8="
+  crossorigin="anonymous"></script>
+  <script src="FRONTEND/ente.js"></script>
+  <script src="FRONTEND/alien.js"></script>
+  <script src="FRONTEND/manejadora.js"></script>
+  
+</head>
+
+<body style="background-color:darkgrey">
+ <br>
+  <div class="container" style="background-color:lightblue">
+    <br>
+    <h2 style="background-color:gray;color:ghostwhite">Segado</h2>
+    <br>
+    <h4>ABM - Alien</h4>
+    <br>
+    <div class="row responsive-utilities-test visible-on">
+
+      <table class="table table" style="width:90%">
+        <tr>
+          <td style="width:45%">
+            <table class="table table-hover" style="background-color:cornflowerblue">
+              <tr>
+                <td><label class="col-md-2 control-label">Cuadrante</label></td>
+                <td><input type="text" id="cuadrante" /></td>
+              </tr>
+              <tr>
+                <td><label class="col-md-2 control-label">Edad</label></td>
+                <td><input type="text" id="edad" /></td>
+              </tr>
+              <tr>
+                <td><label class="col-md-2 control-label">Altura</label></td>
+                <td><input type="text" id="altura" /></td>
+              </tr>
+              <tr>
+                <td><label class="col-md-2 control-label">Raza</label></td>
+                <td><input type="text" id="raza" /></td>
+              </tr>
+              <tr>
+                <td><label class="col-md-2 control-label">Planeta Origen</label></td>
+                <td><select id="cboPlaneta" style="max-width:180px;min-width:130px" > 
+                    <option>Melmac</option>
+                    <option>Kriptón</option>
+                    <option>Vulcano</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td><label class="col-md-2 control-label">Foto</label></td>
+                <td><input type="file" id="foto" name="foto" ></td>
+              </tr>
+              <tr>
+                  <td colspan="2" style="text-align:center">
+                      <div style="height:100px"><img id="imgFoto" src=data:image/jpeg;base64,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 height="100px" width="300px" /></div><!-- PREVISUALIZACION -->
+                  </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <input type="button" value="Agregar" id="btn-agregar" class="btn btn-success" onclick="RecuperatorioPrimerParcial.Manejadora.AgregarAlien()"/>
+                  <input type="button" value="Mostrar Aliens" class="btn btn-info" onclick="RecuperatorioPrimerParcial.Manejadora.MostrarAliens()" />
+                  <input type="button" value="Guardar en LocalStorage" class="btn btn-success" onclick="RecuperatorioPrimerParcial.Manejadora.GuardarEnLocalStorage()" />
+                  <input type="button" value="Verificar y Agregar" class="btn btn-danger" onclick="RecuperatorioPrimerParcial.Manejadora.VerificarExistencia()"/>
+                  <input type="button" value="Obtener Aliens por cuadrante" class="btn btn-default" onclick="RecuperatorioPrimerParcial.Manejadora.ObtenerAliensPorCuadrante()"/>
+                  <input type="button" value="Filtrar por Pais" class="btn btn-info"  />
+                  <input type="button" value="Cargar Paises" class="btn btn-warning"  />
+                </td>
+              </tr>
+            </table>
+          </td>
+          <td>
+            <div class="" style="background-color:lavenderblush;">
+              <div id="divTabla">
+                tabla aqu&iacute;...
+              </div>
+            </div>
+          </td>
+        </tr>
+      </table>
+
+    </div>
+    <input type="hidden" id="hdnIdModificacion"><!-- PARA MODIFICAR -->
+    <div id="divSpinner" style="display:none;position:absolute"><img id="imgSpinner" src="./BACKEND/gif-load.gif" /></div><!-- PARA EL SPINNER -->
+  </div>
+</body>
+
+</html>
