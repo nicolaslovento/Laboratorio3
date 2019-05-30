@@ -12,7 +12,7 @@ namespace Entidades{
         }
 
         public ToString(){
-            return '{"tamaño":"'+this.tamaño+'","edad":'+this.edad+',"precio":'+this.precio+',';
+            return '{"tamanio":"'+this.tamaño+'","edad":'+this.edad+',"precio":'+this.precio+',';
         }
 
     }

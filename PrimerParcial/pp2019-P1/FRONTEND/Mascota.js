@@ -7,7 +7,7 @@ var Entidades;
             this.precio = precio;
         }
         Mascota.prototype.ToString = function () {
-            return '{"tamaño":"' + this.tamaño + '","edad":' + this.edad + ',"precio":' + this.precio + ',';
+            return '{"tamanio":"' + this.tamaño + '","edad":' + this.edad + ',"precio":' + this.precio + ',';
         };
         return Mascota;
     }());
