@@ -1,0 +1,25 @@
+#userName{
+    padding: 4px;
+    
+    
+}
+
+#userClave{
+    padding: 4px;
+}
+
+
+#filaBotones{
+    margin-left: 6px;
+}
+
+.bodyForm{
+    border: 1px solid black;
+    background-color: gray;
+}
+
+#linkRegistro{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 20px;
+   margin-left: 135px;
+}
